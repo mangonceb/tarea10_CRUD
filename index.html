@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>CRUD</title>
+    <script src="datos.js"></script>
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 style="font-size:4em;">CRUD</h1>
+    </header>
+    <nav id="menu">
+        <ul>
+          <li id="bGrabar">Grabar</li>
+          <li id="bModificar">Modificar</li>
+          <li id="bBorrar">Borrar</li>
+          <li id="bSiguiente">Siguiente</li>
+          <li id="bAnterior">Anterior</li>
+          <li id="bTabla">Tabla</li>
+        </ul>
+  
+      </nav>
+    <main>
+        <section>
+            <article>
+                <table style="width: 100%; margin-top: 10px;">
+                    <tr>
+                        <td style="width: 146px">Índice</td>
+                        <td>
+                            <input id="iIndice" type="text" style="width: 257px" value="" readonly/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 146px; height: 26px;">Nombre</td>
+                        <td style="height: 26px">
+                            <input id="Nombre" type="text" style="width: 377px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 146px">Teléfono&nbsp;</td>
+                        <td>
+                            <input id="Telefono" type="text" style="width: 241px; height: 19px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 146px">Latitud</td>
+                        <td>
+                            <input id="Latitud" type="text" style="width: 155px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 146px">Longitud</td>
+                        <td>
+                            <input id="Longitud" type="text" style="width: 158px" />
+                        </td>
+                    </tr>
+                </table>
+            </article>
+            <article>
+                <h1 style="margin-bottom: 10px;">Tabla Empresas</h1>
+                <table id="tabla" class="tablaEmpresas">
+                  <thead><tr>
+                    <th style="height: 25px">ÍNDICE</th>
+                    <th style="height: 25px">NOMBRE</th>
+                    <th style="height: 25px">TELÉFONO</th>
+                    <th style="height: 25px">LATITUD</th>
+                    <th style="height: 25px">LONGITUD</th>
+                  </tr></thead>
+                  <tbody id="cuerpo">
+                  </tbody>
+                  </table>
+              </article>
+        </section>
+        <aside>
+            <h3>Notas acerca del código </h3>
+            <ul>
+                <li>El índice <b>NO se puede modificar</b>. Es dinámico según el número de registros y se actualiza sólo</li>
+                <li>El registro que se elimina al dar a Borrar, es el que se está mostrando en el HTML</li>
+                <li>En el Javascript, está <b>TODO</b> el código comentado</li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>CIPF Santa Catalina DAW curso 2021-2021</p>
+    </footer>
+</body>
+
+</html>

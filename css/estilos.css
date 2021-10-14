@@ -1,0 +1,148 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: inline;
+}
+
+main h1 {
+    font-size:30px;
+}
+
+body {
+    font: 90% Roboto, Arial, sans-serif;
+    font-weight: 300;
+}
+
+p {
+    padding: 0 10px;
+    line-height: 1.8;
+}
+
+ul li {
+    padding-right: 10px;
+    line-height: 1.6;
+}
+
+h3 {
+    padding: 5px 20px;
+    margin: 0;
+}
+
+header {
+    position: relative;
+}
+
+header h1 {
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    padding-left: 10px;
+    background: #e0e0e0;
+    color: #292929;
+}
+
+aside {
+    background: #7cb71c;
+}
+
+div#extra {
+    background: #147FA9;
+}
+
+footer {
+    background: #42444e;
+    color: #fff;
+}
+
+footer p {
+    padding: 20px 10px;
+}
+
+section {
+    
+    float: left;
+    width: 70%;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+
+article {
+    padding-left: 150px;
+}
+
+aside {
+    float: right;
+    width: 300px;
+    margin-top: 100px;
+}
+
+div#extra {
+    float: right;
+    clear: right;
+    width: 200px
+}
+
+footer {
+    clear: both;
+    width: 100%
+}
+
+#busqueda {
+    margin-bottom: 10px;
+}
+
+input[name="opcion"]{
+    margin-left: 20px;
+}
+aside h3{
+    margin-top: 10px;
+}
+aside ul {
+    margin-top: 0px;
+}
+#extra input{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 10px;
+  }
+  
+#menu li {
+    cursor: pointer;
+    float: left;
+    border-right:1px solid #bbb;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+#menu li:last-child {
+    border-right: none;
+  }
+  
+  
+#menu li:hover:not(.active) {
+    background-color: #111;
+  }
+
+#tabla{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+#tabla table, #tabla th, #tabla td {
+    border: 1px solid black;
+  }
+#tabla th, #tabla td {
+    padding: 5px;
+}
